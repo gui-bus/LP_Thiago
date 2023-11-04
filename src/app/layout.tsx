@@ -3,6 +3,7 @@ import { Montserrat } from "next/font/google";
 import "./globals.css";
 import UIProvider from "@/providers/UIProvider";
 import Header from "@/components/common/header";
+import Footer from "@/components/common/footer";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
@@ -22,6 +23,7 @@ export default function RootLayout({
         <UIProvider>
           <Header />
           <main className="relative overflow-hidden">{children}</main>
+          <Footer />
         </UIProvider>
       </body>
     </html>
