@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const AboutSection = () => {
   return (
-    <section className="flex items-center justify-center flex-col mt-10 overflow-y-hidden text-tmDarkGray">
+    <section className="md:container mx-auto flex items-center justify-center flex-col mt-10 overflow-y-hidden text-tmDarkGray">
       <div className="px-5 container w-full pb-24">
         <p className="uppercase regular-18 mb-3 text-tmyellow">
           Nós estamos aqui por você
@@ -25,14 +25,14 @@ const AboutSection = () => {
         </div>
       </div>
 
-      <div className="flex gap-5 items-center justify-center md:container relative w-full">
+      <div className="flex items-center justify-center md:container relative w-full gap-5 overflow-hidden">
         <Image
           src="/img01.jpg"
           alt="Imagem que ilustra a oficina no Jardim Aquárius."
           width={0}
           height={0}
           sizes="100vw"
-          className="w-full lg:w-1/2 h-auto bg-cover bg-center md:rounded-2xl hidden md:block"
+          className="w-full lg:w-[49%] h-auto bg-cover bg-center md:rounded-2xl hidden md:block"
         />
         <Image
           src="/img02.jpg"
@@ -40,7 +40,7 @@ const AboutSection = () => {
           width={0}
           height={0}
           sizes="100vw"
-          className="w-full lg:w-1/2 h-auto bg-cover bg-center md:rounded-2xl"
+          className="w-full lg:w-[49%] h-auto bg-cover bg-center md:rounded-2xl"
         />
       </div>
     </section>
