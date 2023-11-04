@@ -38,16 +38,22 @@ const Gallery = () => {
         </div>
       </Swiper>
 
-      <div className="flex items-center justify-end mt-10 px-6 lg:-mt-28 z-50 relative text-center md:text-left">
-        <div className="bg-green-500 p-8 lg:max-w-[500px] xl:max-w-[734px] xl:rounded-5xl xl:p-12 relative w-full overflow-hidden rounded-3xl drop-shadow-2xl">
+      <div className="flex items-center justify-end mt-2 px-6 lg:-mt-28 z-50 relative text-center md:text-left">
+        <div className="bg-tmDarkGray p-8 lg:max-w-[500px] xl:max-w-[734px] xl:rounded-5xl xl:p-12 relative w-full overflow-hidden rounded-3xl drop-shadow-2xl text-center">
           <h2 className="regular-24 md:regular-32 text-white">
-            <strong>Explore o Mundo das Bicicletas</strong> na nossa Oficina!
+            <span className="font-bold">
+              Conheça o melhor do mundo das bicicletas
+            </span>{" "}
+            na nossa oficina!
           </h2>
-          <p className="regular-14 xl:regular-16 mt-5 text-white">
+          <p className="text-base md:text-lg mt-5 text-white">
             Se você é um entusiasta de bicicletas em busca de inspiração, nossa
             galeria está aqui para mostrar algumas das maravilhas do nosso
-            espaço de trabalho. Venha conosco nesta jornada de exploração pelo
-            mundo das bicicletas!
+            espaço de trabalho.{" "}
+            <span className="font-medium">
+              Venha conosco nesta jornada de exploração pelo mundo das
+              bicicletas!
+            </span>
           </p>
         </div>
       </div>
