@@ -1,4 +1,5 @@
 import { SOCIALS } from "@/constants";
+import { Button } from "@nextui-org/react";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -34,7 +35,7 @@ const HeroSection = () => {
               especializada. Aqui, oferecemos serviços excepcionais e cursos de
               elite, onde a busca pela perfeição é uma constante.
             </p>
-            <p className="font-semibold text-xl w-full py-4 uppercase">
+            <p className="font-bold text-xl w-full py-2 uppercase whitespace-nowrap">
               Impossível não aprender!
             </p>
           </div>
@@ -44,7 +45,7 @@ const HeroSection = () => {
               {Array(5)
                 .fill(1)
                 .map((_, index) => (
-                  <HiStar key={index} size={24} className="text-yellow-400" />
+                  <HiStar key={index} size={24} className="text-tmyellow" />
                 ))}
             </div>
 
@@ -59,13 +60,13 @@ const HeroSection = () => {
           <div className="flex items-center justify-center gap-4 ">
             <ul className="regular-14 flex gap-4 text-gray-30">
               {SOCIALS.links.map((link) => (
-                <Link
-                  key={link.href}
-                  target="_blank"
-                  href={link.href}
-                  className="transition-all duration-300 hover:text-tmyellow hover:scale-110"
-                >
-                  {iconMap[link.icon]}
+                <Link key={link.href} target="_blank" href={link.href}>
+                  <Button
+                    isIconOnly
+                    size="lg"
+                    startContent={iconMap[link.icon]}
+                    className="transition-all duration-300 bg-tmyellow text-white hover:scale-110 p-2"
+                  />
                 </Link>
               ))}
             </ul>
