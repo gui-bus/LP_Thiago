@@ -14,8 +14,6 @@ const config: Config = {
         herocover: "url('/herocover.webp')",
         heroimage: "url('/heroimage.jpg')",
         hero: "url('/hero.jpg')",
-        hero2: "url('/hero2.jpg')",
-        hero3: "url('/hero3.jpg')",
         pattern: "url('/pattern.png')",
       },
       colors: {
