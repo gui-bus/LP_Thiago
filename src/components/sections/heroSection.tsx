@@ -25,18 +25,18 @@ const HeroSection = () => {
     <section className="flex flex-col xl:flex-row w-full">
       <div className="pattern w-full md:gap-10">
         <div className="xl:w-2/3 py-16 px-8 flex flex-col items-center justify-center text-tmDarkGray">
-
           <div className="flex flex-col gap-4 items-start justify-center w-full text-center px-2">
             <h1 className="font-bold text-5xl md:text-6xl xl:whitespace-nowrap tracking-tighter pb-3 w-full">
               Excelência em Manutenção
             </h1>
             <p className="text-gray-30 md:text-2xl w-full md:max-w-[48rem] 2xl:max-w-[50rem] mx-auto">
-              Seja bem-vindo ao epicentro da mecânica de alto
-              nível e instrução especializada. Aqui, oferecemos serviços
-              excepcionais e cursos de elite, onde a busca pela perfeição é uma
-              constante.
+              Seja bem-vindo ao epicentro da mecânica de alto nível e instrução
+              especializada. Aqui, oferecemos serviços excepcionais e cursos de
+              elite, onde a busca pela perfeição é uma constante.
             </p>
-            <p className="font-semibold text-xl w-full py-4 uppercase">Impossível não aprender!</p>
+            <p className="font-semibold text-xl w-full py-4 uppercase">
+              Impossível não aprender!
+            </p>
           </div>
 
           <div className="mb-5 flex flex-wrap gap-3 items-center justify-center">
