@@ -11,7 +11,7 @@ const AboutSection = () => {
 
         <div className="flex flex-wrap justify-between gap-5 lg:gap-10">
           <h2 className="bold-40 lg:bold-64 xl:max-w-[390px]">
-            Manutenção Descomplicada
+            Manutenção Especializada
           </h2>
           <p className="regular-16 text-gray-30 xl:max-w-[520px]">
             Na nossa oficina, garantimos o funcionamento perfeito das suas
@@ -40,7 +40,7 @@ const AboutSection = () => {
           width={0}
           height={0}
           sizes="100vw"
-          className="w-full lg:w-[49%] h-auto bg-cover bg-center md:rounded-2xl"
+          className="w-full lg:w-[49%] h-auto bg-cover bg-center md:rounded-2xl bg-gray-50"
         />
       </div>
     </section>
