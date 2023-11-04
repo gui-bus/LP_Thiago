@@ -70,6 +70,10 @@
   .bold-16 {
     @apply text-[16px] font-[700];
   }
+
+  .pattern {
+    @apply w-full flex flex-col md:flex-row justify-between overflow-hidden bg-pattern bg-cover bg-center bg-no-repeat text-white ;
+  }
 }
 
 .hide-scrollbar::-webkit-scrollbar {
@@ -89,6 +93,6 @@
 
   .swiper .swiper-button-prev,
   .swiper .swiper-button-next {
-    @apply after:hidden mx-4 md:mx-12 lg:mx-20 w-10 h-10 md:w-14 md:h-14 -translate-y-5 mt-0 text-green-50;
+    @apply after:hidden mx-4 md:mx-12 lg:mx-20 w-10 h-10 md:w-14 md:h-14 -translate-y-5 mt-0 text-black;
   }
 }
