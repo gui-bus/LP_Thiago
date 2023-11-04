@@ -1,9 +1,9 @@
 export const SOCIALS = {
   title: "Social",
   links: [
-    { icon: "FaInstagram", href: "https://www.instagram.com/guibus_dev/" },
-    { icon: "FaYoutube", href: "https://www.linkedin.com/in/gui-bus/" },
-    { icon: "FaTiktok", href: "https://github.com/gui-bus" },
-    { icon: "FaWhatsapp", href: "https://twitter.com/guibus_dev" },
+    { icon: "FaInstagram", href: "https://www.instagram.com/thiagooficinaescola" },
+    { icon: "FaYoutube", href: "https://www.youtube.com/@ThiagoMecanico" },
+    { icon: "FaTiktok", href: "https://www.tiktok.com/@thiago.mecanico" },
+    { icon: "FaWhatsapp", href: "https://api.whatsapp.com/message/XAS6W42TZQO4N1?autoload=1&app_absent=0" },
   ],
 };
