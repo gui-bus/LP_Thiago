@@ -16,7 +16,7 @@ const WashSection = () => {
           className="w-full xl:w-1/3 h-auto aspect-square object-center object-cover md:rounded-xl xl:rounded-tl-[40%] xl:rounded-br-[40%]"
         />
 
-        <div className="flex flex-col items-center md:items-start md:justify-start w-full xl:w-2/3 px-5">
+        <div className="flex flex-col items-center md:items-start md:justify-center w-full xl:w-2/3 px-5">
           <p className="uppercase regular-18 mb-3 text-tmyellow flex justify-center md:justify-start gap-2 items-center">
             Lavagem Profissional{" "}
             <span className="hidden md:block">para Sua Bicicleta</span>

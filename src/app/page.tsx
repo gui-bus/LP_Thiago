@@ -12,7 +12,10 @@ export default function Home() {
   return (
     <main className="overflow-x-hidden">
       <HeroSection />
-      <AboutSection />
+
+      <div className="md:px-5">
+        <AboutSection />
+      </div>
 
       <div className="flex flex-col items-center justify-center my-8">
         <div className="container mx-auto text-center px-5 text-tmDarkGray">
@@ -26,14 +29,16 @@ export default function Home() {
 
           <Divider className="mt-5" />
         </div>
-        <RepairSection />
-        <DeliverySection />
-        <WashSection />
+        <div className="md:px-5">
+          <RepairSection />
+          <DeliverySection />
+          <WashSection />
+        </div>
 
         <Products />
       </div>
 
-      <div className="flex flex-col lg:flex-row w-full container mx-auto">
+      <div className="flex flex-col lg:flex-row w-full container mx-auto md:px-5">
         <div className="w-full xl:w-1/2">
           <Gallery />
         </div>

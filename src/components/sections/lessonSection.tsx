@@ -14,14 +14,14 @@ const LessonSection = () => {
           Impossível não aprender <GiStairsGoal size={28} />
         </p>
         <div className="flex flex-col items-center justify-center gap-5">
-          <h2 className="bold-40 lg:bold-64">
+          <h2 className="bold-40 lg:bold-64 text-center md:text-left">
             Aprendizado de Elite em Ambiente Real
           </h2>
           <p className="regular-16 text-justify">
             Na nossa oficina, oferecemos aulas de elite para o seu aprendizado.
             Você pode escolher entre nossas aulas ao vivo, onde você terá a
             oportunidade de aprender em um ambiente real, dentro de nossa
-            oficina, com nossos especialistas. Também disponibilizamos
+            oficina, com nossos especialistas. Além disso ambém disponibilizamos
             video-aulas gravadas de altíssima qualidade para que você possa
             aprimorar suas habilidades e conhecimento em manutenção de
             bicicletas no seu próprio ritmo.

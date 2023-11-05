@@ -23,9 +23,9 @@ import { HiStar } from "react-icons/hi";
 
 const HeroSection = () => {
   return (
-    <section className="flex flex-col xl:flex-row w-full">
-      <div className="pattern w-full md:gap-10">
-        <div className="xl:w-2/3 py-16 px-8 flex flex-col items-center justify-center text-tmDarkGray">
+    <section className="flex flex-col xl:flex-row w-full justify-center items-center">
+      <div className="pattern w-full md:gap-10 ">
+        <div className="w-full mx-auto xl:w-2/3 py-16 px-8 flex flex-col items-center justify-center text-tmDarkGray ">
           <div className="flex flex-col gap-4 items-start justify-center w-full text-center px-2">
             <h1 className="font-bold text-5xl md:text-6xl xl:whitespace-nowrap tracking-tighter pb-3 w-full">
               Excelência em Manutenção
@@ -35,7 +35,7 @@ const HeroSection = () => {
               especializada. Aqui, oferecemos serviços excepcionais e cursos de
               elite, onde a busca pela perfeição é uma constante.
             </p>
-            <p className="font-bold text-xl w-full py-2 uppercase whitespace-nowrap">
+            <p className="font-bold text-base md:text-xl w-full py-2 uppercase whitespace-nowrap">
               Impossível não aprender!
             </p>
           </div>

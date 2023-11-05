@@ -8,7 +8,6 @@ import {
   Link,
   Button,
   NavbarMenu,
-  NavbarMenuItem,
   NavbarMenuToggle,
   Dropdown,
   DropdownTrigger,

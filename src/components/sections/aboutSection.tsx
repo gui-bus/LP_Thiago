@@ -8,7 +8,7 @@ const AboutSection = () => {
     <section className="md:container mx-auto flex items-center justify-center flex-col mt-10 overflow-y-hidden text-tmDarkGray">
       <div className="px-5 container w-full pb-10 xl:pb-20 text-center md:text-justify">
         <p className="uppercase regular-18 mb-3 text-tmyellow flex justify-center md:justify-start gap-2 items-center">
-          Nós estamos aqui por você <BsTools size={28}/>
+          Estamos aqui por você <BsTools size={28}/>
         </p>
 
         <div className="flex flex-wrap justify-between gap-5 lg:gap-10">
