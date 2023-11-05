@@ -12,13 +12,13 @@ const config: Config = {
     extend: {
       backgroundImage: {
         hero: "url('/hero.jpg')",
-        pattern: "url('/pattern.png')",
-        gallery01: "url(/gallery/01.jpg)",
-        gallery02: "url(/gallery/02.jpg)",
-        gallery03: "url(/gallery/03.jpg)",
-        gallery04: "url(/gallery/04.jpg)",
-        gallery05: "url(/gallery/05.jpg)",
-        gallery06: "url(/gallery/06.jpg)",
+        pattern: "url('/pattern.webp')",
+        gallery01: "url(/gallery/01.webp)",
+        gallery02: "url(/gallery/02.webp)",
+        gallery03: "url(/gallery/03.webp)",
+        gallery04: "url(/gallery/04.webp)",
+        gallery05: "url(/gallery/05.webp)",
+        gallery06: "url(/gallery/06.webp)",
       },
       colors: {
         tmblue: "#002746",
