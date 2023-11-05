@@ -19,6 +19,10 @@ const config: Config = {
         gallery04: "url(/gallery/04.webp)",
         gallery05: "url(/gallery/05.webp)",
         gallery06: "url(/gallery/06.webp)",
+        gallery07: "url(/gallery/07.webp)",
+        gallery08: "url(/gallery/08.webp)",
+        gallery09: "url(/gallery/09.webp)",
+        gallery10: "url(/gallery/10.webp)",
       },
       colors: {
         tmblue: "#002746",
