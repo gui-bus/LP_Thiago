@@ -4,6 +4,7 @@ import Link from "next/link";
 import React from "react";
 import { FaTruckFast } from "react-icons/fa6";
 import { FaHome } from "react-icons/fa";
+import { IMG_LINK } from "@/constants/links";
 
 const tel = "1239355114";
 
@@ -12,12 +13,12 @@ const DeliverySection = () => {
     <section className="w-full mt-10 container mx-auto overflow-hidden text-tmDarkGray text-center md:text-justify">
       <div className="flex flex-col xl:flex-row justify-center gap-5">
         <Image
-          src="/delivery.jpg"
+          src={`${IMG_LINK.delivery}`}
           alt="Imagem que ilustra o veículo de delivery da oficina."
           width={0}
           height={0}
           sizes="100vw"
-          className="w-full xl:w-1/3 h-auto aspect-square object-center object-cover md:rounded-xl xl:rounded-tr-[40%] xl:rounded-bl-[40%]"
+          className="w-full xl:w-1/3 h-auto aspect-square object-center object-cover md:rounded-xl xl:rounded-tl-[40%] xl:rounded-br-[40%]"
         />
 
         <div className="flex flex-col items-center md:items-start md:justify-start w-full xl:w-2/3 px-5">

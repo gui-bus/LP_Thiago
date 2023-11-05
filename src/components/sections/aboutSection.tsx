@@ -1,4 +1,5 @@
 "use client";
+import { IMG_LINK } from "@/constants/links";
 import Image from "next/image";
 import { BsTools } from 'react-icons/bs'
 
@@ -28,7 +29,7 @@ const AboutSection = () => {
 
       <div className="flex items-center justify-center md:container relative w-full gap-5 overflow-hidden">
         <Image
-          src="/img01.jpg"
+          src={`${IMG_LINK.image_01}`}
           alt="Imagem que ilustra a oficina no Jardim Aquárius."
           width={0}
           height={0}
@@ -36,7 +37,7 @@ const AboutSection = () => {
           className="w-full lg:w-[49%] h-auto bg-cover bg-center md:rounded-2xl hidden md:block"
         />
         <Image
-          src="/img02.jpg"
+          src={`${IMG_LINK.image_02}`}
           alt="Imagem que ilustra o profissionalismo da oficina."
           width={0}
           height={0}

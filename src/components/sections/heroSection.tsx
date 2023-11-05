@@ -1,4 +1,5 @@
 import { SOCIALS } from "@/constants";
+import { IMG_LINK } from "@/constants/links";
 import { Button } from "@nextui-org/react";
 import Image from "next/image";
 import Link from "next/link";
@@ -9,7 +10,6 @@ import {
   FaYoutube,
   FaTiktok,
   FaWhatsapp,
-  FaChevronDown,
 } from "react-icons/fa6";
 
 const iconMap: { [key: string]: JSX.Element } = {
@@ -74,7 +74,7 @@ const HeroSection = () => {
         </div>
 
         <Image
-          src="/thiago.jpg"
+          src={IMG_LINK.thiago}
           alt="Thiago Mêcanica e Oficina Escola"
           width={0}
           height={0}
