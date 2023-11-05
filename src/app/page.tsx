@@ -5,8 +5,8 @@ import DeliverySection from "@/components/sections/deliverySection";
 import WashSection from "@/components/sections/washSection";
 import { Divider } from "@nextui-org/react";
 import RepairSection from "@/components/sections/repairSection";
-import Image from "next/image";
 import Products from "@/components/Products";
+import LessonSection from "@/components/sections/lessonSection";
 
 export default function Home() {
   return (
@@ -33,7 +33,14 @@ export default function Home() {
         <Products />
       </div>
 
-      <Gallery />
+      <div className="flex flex-col lg:flex-row w-full container mx-auto">
+        <div className="w-full xl:w-1/2">
+          <Gallery />
+        </div>
+        <div className="w-full xl:w-1/2">
+          <LessonSection />
+        </div>
+      </div>
     </main>
   );
 }
