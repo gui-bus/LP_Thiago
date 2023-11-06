@@ -34,14 +34,16 @@ export default function Header() {
           className="sm:hidden text-white"
         />
         <NavbarBrand>
-          <Image
-            src="/logo.svg"
-            alt="Thiago Mêcanica e Oficina Escola"
-            width={0}
-            height={0}
-            sizes="100vw"
-            className="w-44 h-auto object-contain"
-          />
+          <Link href="/">
+            <Image
+              src="/logo.svg"
+              alt="Thiago Mêcanica e Oficina Escola"
+              width={0}
+              height={0}
+              sizes="100vw"
+              className="w-44 h-auto object-contain"
+            />
+          </Link>
         </NavbarBrand>
       </NavbarContent>
 
