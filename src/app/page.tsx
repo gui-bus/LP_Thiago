@@ -37,15 +37,6 @@ export default function Home() {
 
         <Products />
       </div>
-
-      <div className="flex flex-col lg:flex-row w-full container mx-auto md:px-5">
-        <div className="w-full xl:w-1/2">
-          <Gallery />
-        </div>
-        <div className="w-full xl:w-1/2">
-          <LessonSection />
-        </div>
-      </div>
     </main>
   );
 }
