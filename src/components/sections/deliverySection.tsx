@@ -52,7 +52,7 @@ const DeliverySection = () => {
             )}`}
           >
             <Button
-              className="bg-tmyellow font-bold text-white my-8 p-8"
+              className="bg-tmyellow font-bold text-white my-8 p-8 transition-all hover:bg-tmyellowHover duration-300"
               endContent={<FaTruckFast size={24} />}
             >
               Agendar delivery

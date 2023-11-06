@@ -1,7 +1,7 @@
 "use client";
 import { Button } from "@nextui-org/react";
 import Link from "next/link";
-import { BiSolidVideos, BiLogoWhatsapp } from "react-icons/bi";
+import { BiLogoWhatsapp } from "react-icons/bi";
 import { GiStairsGoal } from "react-icons/gi";
 
 const tel = "1239355114";
@@ -26,29 +26,25 @@ const LessonSection = () => {
             aprimorar suas habilidades e conhecimento em manutenção de
             bicicletas no seu próprio ritmo.
           </p>
+          <p className="text-justify font-bold">
+            Para mais informações entre em contato pelo botão abaixo
+          </p>
 
-          <div className="flex flex-col lg:flex-row items-center justify-center gap-2 w-full">
-            <Link
-              target="_blank"
-              href={`https://wa.me/${tel}?text=${encodeURI(
-                "Olá, vim pelo site da oficina e gostaria de mais informações sobre as aulas presenciais!"
-              )}`}
-              className="w-full lg:w-1/2"
-            >
-              <Button
-                className="bg-tmyellow p-6 text-white font-bold w-full"
-                endContent={<BiLogoWhatsapp size={28} />}
-              >
-                Agendar Treinamento
-              </Button>
-            </Link>
+
+          <Link
+            target="_blank"
+            href={`https://wa.me/${tel}?text=${encodeURI(
+              "Olá, vim pelo site da oficina e gostaria de mais informações sobre as aulas presenciais!"
+            )}`}
+            className="w-full lg:w-1/2"
+          >
             <Button
-              className="bg-tmyellow p-6 text-white font-bold w-full lg:w-1/2"
-              endContent={<BiSolidVideos size={28} />}
+              className="bg-tmyellow p-6 text-white font-bold w-full  transition-all hover:bg-tmyellowHover duration-300"
+              endContent={<BiLogoWhatsapp size={28} />}
             >
-              Acessar Videoaulas
+              Agendar Treinamento
             </Button>
-          </div>
+          </Link>
         </div>
       </div>
     </section>

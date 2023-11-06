@@ -65,7 +65,7 @@ const HeroSection = () => {
                     isIconOnly
                     size="lg"
                     startContent={iconMap[link.icon]}
-                    className="transition-all duration-300 bg-tmyellow text-white hover:scale-110 p-2"
+                    className="transition-all duration-300 bg-tmyellow text-white hover:scale-110 hover:bg-tmyellowHover p-2"
                   />
                 </Link>
               ))}
