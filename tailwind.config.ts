@@ -27,6 +27,7 @@ const config: Config = {
       colors: {
         tmblue: "#002746",
         tmyellow: "#ffae00",
+        tmyellowHover: "#ffbf00",
         tmgray: "#101d23",
         tmDarkGray: "#333333",
       },
