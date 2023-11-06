@@ -28,7 +28,7 @@ const Gallery = () => {
           <SwiperSlide key={index}>
             <div className="flex items-center justify-center md:container relative w-full h-[25rem] md:h-[40rem] mx-auto py-10">
               <div
-                className={`swiper-slide w-full md:w-[80rem] h-[25rem] bg-cover bg-center md:rounded-2xl ${data.bgImage} bg-no-repeat`}
+                className={`swiper-slide w-full md:w-[80rem] h-[25rem] bg-cover bg-center rounded-2xl ${data.bgImage} bg-no-repeat`}
               />
             </div>
           </SwiperSlide>

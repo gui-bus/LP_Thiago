@@ -2,7 +2,7 @@
 import LessonsSwiper from "@/components/LessonsPage/SwiperLesson";
 import Gallery from "@/components/sections/gallerySection";
 import LessonSection from "@/components/sections/lessonSection";
-import { Spinner } from "@nextui-org/react";
+import { Divider, Spinner } from "@nextui-org/react";
 import { useEffect, useState } from "react";
 
 const Lessons = () => {
@@ -23,13 +23,23 @@ const Lessons = () => {
       ) : (
         <div>
           <div className="flex flex-col lg:flex-row w-full container mx-auto md:px-5">
-            <div className="w-full xl:w-1/2">
+            <div className="w-full xl:w-1/3">
               <Gallery />
             </div>
-            <div className="w-full xl:w-1/2">
+            <div className="w-full xl:w-2/3">
               <LessonSection />
             </div>
           </div>
+
+          <div className="flex flex-col items-center justify-center text-center mb-5">
+            <h1 className="font-bold text-2xl">Videoaulas</h1>
+            <p className="regular-16">
+              Confira abaixo a lista das videoaulas disponíveis, impossível não
+              aprender!
+            </p>
+          </div>
+
+          <Divider />
 
           <LessonsSwiper
             category="Rockshox"
