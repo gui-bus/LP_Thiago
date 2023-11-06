@@ -6,7 +6,7 @@ import WashSection from "@/components/sections/washSection";
 import { Divider } from "@nextui-org/react";
 import RepairSection from "@/components/sections/repairSection";
 import Products from "@/components/Products";
-import LessonSection from "@/components/sections/lessonSection";
+import LessonHomeSection from "@/components/sections/lessonHomeSection";
 
 export default function Home() {
   return (
@@ -33,6 +33,7 @@ export default function Home() {
           <RepairSection />
           <DeliverySection />
           <WashSection />
+          <LessonHomeSection />
         </div>
 
         <Products />
