@@ -6,7 +6,7 @@ import { RiSeedlingFill, RiInformationFill } from "react-icons/ri";
 
 const LessonHomeSection = () => {
   return (
-    <section className="w-full mt-10 container mx-auto overflow-hidden text-tmDarkGray text-center md:text-justify">
+    <section className="w-full mt-10 container mx-auto overflow-hidden text-tmDarkGray dark:text-gray-200 text-center md:text-justify">
       <div className="flex flex-col xl:flex-row justify-center gap-5">
         <Image
           src="/gallery/01.webp"
@@ -14,7 +14,7 @@ const LessonHomeSection = () => {
           width={0}
           height={0}
           sizes="100vw"
-          className="w-full xl:w-1/3 h-auto aspect-square object-center object-cover md:rounded-xl xl:rounded-tl-[40%] xl:rounded-br-[40%]"
+          className="w-full xl:w-1/3 h-full sm:max-h-[30rem] xl:max-h-full aspect-square object-center object-cover sm:rounded-3xl xl:rounded-tl-[40%] xl:rounded-br-[40%]"
         />
 
         <div className="flex flex-col items-center md:items-start justify-center w-full xl:w-2/3 px-5">
@@ -22,7 +22,7 @@ const LessonHomeSection = () => {
             Invista em você <RiSeedlingFill size={28} />
           </p>
           <div className="w-full">
-            <h2 className="bold-40 lg:bold-64">Treinamento Personalizado</h2>
+            <h2 className="bold-40 lg:bold-52 2xl:bold-64">Treinamento Personalizado</h2>
             <p className="regular-16 mt-5 w-full max-w-3xl text-justify">
               Em nossa oficina, proporcionamos um ensino de excelência para o
               seu aprendizado. Você pode optar por participar de nossas aulas ao
