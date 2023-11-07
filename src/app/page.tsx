@@ -1,6 +1,3 @@
-import Gallery from "@/components/sections/gallerySection";
-import HeroSection from "@/components/sections/heroSection";
-import AboutSection from "@/components/sections/aboutSection";
 import DeliverySection from "@/components/sections/deliverySection";
 import WashSection from "@/components/sections/washSection";
 import { Divider } from "@nextui-org/react";
@@ -8,36 +5,31 @@ import RepairSection from "@/components/sections/repairSection";
 import Products from "@/components/Products";
 import LessonHomeSection from "@/components/sections/lessonHomeSection";
 
+import LocationSection from "@/components/sections/locationSection";
+import TeamSection from "@/components/sections/teamSection";
+import { BsTools } from "react-icons/bs";
+
+import { FaInstagram, FaYoutube, FaTiktok, FaWhatsapp } from "react-icons/fa6";
+import Banner from "@/components/sections/banner";
+import ServicesSection from "@/components/sections/servicesSection";
+
+const iconMap: { [key: string]: JSX.Element } = {
+  FaYoutube: <FaYoutube size={32} />,
+  FaInstagram: <FaInstagram size={32} />,
+  FaTiktok: <FaTiktok size={32} />,
+  FaWhatsapp: <FaWhatsapp size={32} />,
+};
+
 export default function Home() {
   return (
     <main className="overflow-x-hidden">
-      <HeroSection />
+      <Banner />
+      <ServicesSection />
 
-      <div className="md:px-5">
-        <AboutSection />
-      </div>
+      <TeamSection />
 
-      <div className="flex flex-col items-center justify-center my-8">
-        <div className="container mx-auto text-center px-5 text-tmDarkGray">
-          <h2 className="bold-40 lg:bold-64 xl:text-4xl">
-            Descubra nossos serviços
-          </h2>
-          <p className="text-lg text-center mt-2">
-            Oferecemos uma ampla gama de serviços para atender às suas
-            necessidades. Saiba mais sobre o que podemos fazer por você.
-          </p>
-
-          <Divider className="mt-5" />
-        </div>
-        <div className="md:px-5">
-          <RepairSection />
-          <DeliverySection />
-          <WashSection />
-          <LessonHomeSection />
-        </div>
-
-        <Products />
-      </div>
+      <LocationSection />
+      <Products />
     </main>
   );
 }
