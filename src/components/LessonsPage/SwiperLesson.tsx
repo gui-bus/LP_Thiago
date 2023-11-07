@@ -15,7 +15,6 @@ interface LessonsSwiperProps {
 
 const LessonsSwiper = ({ category, categoryTitle }: LessonsSwiperProps) => {
   const [sliderPerView, setSliderPerView] = useState(2);
-  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     function handleResize() {

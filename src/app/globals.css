@@ -72,7 +72,7 @@
   }
 
   .pattern {
-    @apply w-full flex flex-col md:flex-row justify-between overflow-hidden bg-pattern bg-cover bg-center bg-no-repeat text-white ;
+    @apply w-full flex flex-col md:flex-row justify-between overflow-hidden bg-pattern bg-cover bg-center bg-no-repeat text-white;
   }
 }
 
