@@ -75,7 +75,7 @@ const TeamSection = () => {
         <h2 className="font-bold text-2xl md:bold-40 lg:bold-52 2xl:bold-64">
           Equipe de Elite
         </h2>
-        <Divider className="mt-4 mb-2" />
+        <Divider className="my-4" />
         <p className="text-lg text-center my-2 font-semibold">
           Nossa equipe não só é composta por profissionais altamente
           qualificados, mas também por entusiastas do ciclismo.
@@ -103,7 +103,7 @@ const TeamSection = () => {
             nextEl: ".swiper-button-next",
           }}
           modules={[Navigation]}
-          spaceBetween={5}
+          spaceBetween={20}
         >
           <div className="swiper-button-prev">
             <FaCircleChevronLeft className="rounded-full text-tmDarkGray" />

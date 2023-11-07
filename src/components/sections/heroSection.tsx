@@ -25,7 +25,7 @@ const HeroSection = () => {
   return (
     <section className="flex flex-col xl:flex-row w-full justify-center items-center">
       <div className="pattern w-full md:gap-10 ">
-        <div className="w-full mx-auto xl:w-2/3 py-16 px-8 flex flex-col items-center justify-center text-tmDarkGray ">
+        <div className="w-full mx-auto xl:w-2/3 py-16 px-8 flex flex-col items-center justify-center text-tmDarkGray dark:text-gray-200">
           <div className="flex flex-col gap-4 items-start justify-center w-full text-center px-2">
             <h1 className="font-bold text-5xl md:text-6xl xl:whitespace-nowrap tracking-tighter pb-3 w-full">
               Excelência em Manutenção

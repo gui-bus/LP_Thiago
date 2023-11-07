@@ -5,7 +5,7 @@ import { FaSoap } from "react-icons/fa";
 
 const WashSection = () => {
   return (
-    <section className="w-full mt-10 container mx-auto overflow-hidden text-tmDarkGray dark:text-gray-200 text-center md:text-justify">
+    <section className="w-full mt-10 sm:container mx-auto overflow-hidden text-tmDarkGray dark:text-gray-200 text-center md:text-justify">
       <div className="flex flex-col xl:flex-row-reverse justify-center gap-5">
         <Image
           src={`${IMG_LINK.wash}`}
@@ -16,14 +16,14 @@ const WashSection = () => {
           className="w-full xl:w-1/3 h-full md:max-h-[30rem] xl:max-h-full aspect-square object-center object-cover md:rounded-xl xl:rounded-tl-[40%] xl:rounded-br-[40%]"
         />
 
-        <div className="flex flex-col items-center md:items-start md:justify-center w-full xl:w-2/3 px-5">
+        <div className="flex flex-col items-center md:items-start md:justify-center w-full xl:w-fit p-5">
           <p className="uppercase regular-18 mb-3 text-tmyellow flex justify-center md:justify-start gap-2 items-center">
             Lavagem Profissional{" "}
             <span className="hidden md:block">para Sua Bicicleta</span>
             <FaSoap size={28} />
           </p>
           <div className="w-full">
-            <h2 className="bold-40 lg:bold-52 text-left 2xl:bold-64">Bike Wash Express</h2>
+            <h2 className="bold-40 lg:bold-52 xl:text-left 2xl:bold-64">Bike Wash Express</h2>
             <p className="regular-16 mt-5 w-full max-w-3xl text-justify">
               <span className="font-medium">
                 Sua bicicleta merece um tratamento de limpeza profissional e
