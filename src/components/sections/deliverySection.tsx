@@ -10,7 +10,7 @@ const tel = "1239355114";
 
 const DeliverySection = () => {
   return (
-    <section className="w-full mt-10 container mx-auto overflow-hidden text-tmDarkGray text-center md:text-justify">
+    <section className="w-full mt-10 container mx-auto overflow-hidden text-tmDarkGray dark:text-gray-200 text-center md:text-justify">
       <div className="flex flex-col xl:flex-row justify-center gap-5">
         <Image
           src={`${IMG_LINK.delivery}`}
@@ -18,7 +18,7 @@ const DeliverySection = () => {
           width={0}
           height={0}
           sizes="100vw"
-          className="w-full xl:w-1/3 h-auto aspect-square object-center object-cover md:rounded-xl xl:rounded-tl-[40%] xl:rounded-br-[40%]"
+          className="w-full xl:w-1/3 h-full sm:max-h-[30rem] xl:max-h-full aspect-square object-center object-cover sm:rounded-3xl xl:rounded-tl-[40%] xl:rounded-br-[40%]"
         />
 
         <div className="flex flex-col items-center md:items-start justify-center w-full xl:w-2/3 px-5">
@@ -27,8 +27,8 @@ const DeliverySection = () => {
             Porta <FaHome size={28} />
           </p>
           <div className="w-full">
-            <h2 className="bold-40 lg:bold-64">Bike Delivery</h2>
-            <p className="regular-16 mt-5 w-full max-w-3xl text-justify">
+            <h2 className="bold-40 lg:bold-52 2xl:bold-64">Bike Delivery</h2>
+            <p className="regular-16 mt-5 w-full xl:max-w-3xl text-justify">
               <span className="font-medium">
                 Precisando cuidar da sua bike e está sem tempo ou não consegue
                 levar até a oficina? Não se preocupe!
