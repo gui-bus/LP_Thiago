@@ -17,9 +17,18 @@ import {
 import Image from "next/image";
 
 import { FaWhatsapp, FaChevronDown } from "react-icons/fa";
+import { useTheme } from "next-themes";
+
+import { HiSun, HiMoon } from "react-icons/hi";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+
+  const { setTheme, theme } = useTheme();
+
+  const toggleTheme = () => {
+    setTheme(theme === "light" ? "dark" : "light");
+  };
 
   return (
     <Navbar
@@ -108,15 +117,27 @@ export default function Header() {
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem>
-          <Button
-            color="success"
-            href="#"
-            variant="shadow"
-            endContent={<FaWhatsapp size={20} />}
-            className="text-white transition-all duration-250 ease-in-out hover:bg-green-400"
-          >
-            WhatsApp
-          </Button>
+          <div className="flex items-center justify-center gap-2">
+            <Button
+              color="success"
+              href="#"
+              variant="shadow"
+              endContent={<FaWhatsapp size={20} />}
+              className="text-white transition-all duration-250 ease-in-out hover:bg-green-400"
+            >
+              WhatsApp
+            </Button>
+
+            <Button
+              variant="solid"
+              className="hoverButton"
+              endContent={
+                theme === "dark" ? <HiSun size={20} /> : <HiMoon size={20} />
+              }
+              onClick={toggleTheme}
+              isIconOnly
+            />
+          </div>
         </NavbarItem>
       </NavbarContent>
       <NavbarMenu className="pt-10 flex flex-col items-center">
