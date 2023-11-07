@@ -31,6 +31,11 @@ const config: Config = {
         tmgray: "#101d23",
         tmDarkGray: "#333333",
       },
+      screens: {
+        xs: "400px",
+        "3xl": "1680px",
+        "4xl": "2200px",
+      },
     },
   },
   darkMode: "class",

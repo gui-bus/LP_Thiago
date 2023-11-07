@@ -4,6 +4,7 @@ import "./globals.css";
 import UIProvider from "@/providers/UIProvider";
 import Header from "@/components/common/header";
 import Footer from "@/components/common/footer";
+import { ThemeProvider } from "@/providers/ThemeProvider";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
@@ -19,11 +20,18 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <body className={`${montserrat.className}`}>
+      <body className={`${montserrat.className} bg-gradient-to-t from-[#e9e9e9] to-[#fdfdfd] dark:from-[#444444] dark:to-tmDarkGray`}>
         <UIProvider>
-          <Header />
-          <main className="relative overflow-hidden">{children}</main>
-          <Footer />
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="light"
+            enableSystem
+            disableTransitionOnChange
+          >
+            <Header />
+            <main className="relative overflow-hidden">{children}</main>
+            <Footer />
+          </ThemeProvider>
         </UIProvider>
       </body>
     </html>
