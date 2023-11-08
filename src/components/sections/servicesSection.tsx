@@ -6,7 +6,7 @@ import LessonHomeSection from "@/components/sections/lessonHomeSection";
 
 export default function ServicesSection() {
   return (
-    <section>
+    <section id="Serviços">
       <div className="flex flex-col items-center justify-center mt-5 mb-8 w-full">
         <div className="mx-auto text-center text-tmDarkGray dark:text-gray-200">
           <h2 className="font-bold text-2xl md:bold-40 lg:bold-52 2xl:bold-64">

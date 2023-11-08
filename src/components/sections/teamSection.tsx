@@ -70,7 +70,10 @@ const TeamSection = () => {
   }, []);
 
   return (
-    <section className="md:container mx-auto flex items-center justify-center flex-col mt-10 overflow-y-hidden text-tmDarkGray dark:text-gray-200">
+    <section
+      className="md:container mx-auto flex items-center justify-center flex-col mt-10 overflow-y-hidden text-tmDarkGray dark:text-gray-200"
+      id="Equipe"
+    >
       <div className="container mx-auto text-center px-5 text-tmDarkGray dark:text-gray-200">
         <h2 className="font-bold text-2xl md:bold-40 lg:bold-52 2xl:bold-64">
           Equipe de Elite
