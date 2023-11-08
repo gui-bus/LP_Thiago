@@ -29,6 +29,7 @@ export default function Home() {
       <TeamSection />
 
       <LocationSection />
+
       <Products />
     </main>
   );
