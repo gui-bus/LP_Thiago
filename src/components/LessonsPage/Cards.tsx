@@ -10,7 +10,7 @@ interface CardProps {
 
 const Cards: React.FC<CardProps> = ({ links }) => {
   return (
-    <div className="w-full mx-auto flex flex-col items-center justify-center bg-gradient-to-t from-tmDarkGray to-tmDarkGray/90 rounded-3xl cursor-default">
+    <div className="w-full mx-auto flex flex-col items-center justify-center bg-gradient-to-t from-tmDarkGray to-tmDarkGray/90 dark:from-[#777777] dark:to-[#505050] rounded-3xl cursor-default">
       <Image
         src={links.src}
         alt="Thiago Mecânico"
